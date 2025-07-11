@@ -96,6 +96,7 @@ nav ul li{
 /* Action Section*/
 
 
+
 /* Productive user section */
 .productive-user-section{
     margin: 0;
@@ -136,6 +137,142 @@ nav ul li{
 
 
 
+/* User's Feedback section */
+.testimonials {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.testimonials h2 {
+  font-size: 2em;
+  margin-bottom: 40px;
+  color: #222;
+}
+
+.review-container {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.review-card {
+  flex: 1 1 calc(33.33% - 20px);
+  background-color: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-sizing: border-box;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  text-align: left;
+}
+
+.stars img {
+  width: 18px;
+  height: 18px;
+  margin-right: 3px;
+}
+
+.review-card h3 {
+  margin: 15px 0 10px;
+  font-size: 1.1em;
+  color: #111;
+}
+
+.review-card p {
+  font-size: 0.95em;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.reviewer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.reviewer img {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* User's Feedback section */
+
+
+
+/* Ready to focus better */
+.focus {
+    background-color: #ceceda;
+    padding: 40px 20px;
+    border-radius: 20px;
+    max-width: 900px;
+    margin: 50px auto;
+    text-align: center;
+}
+.focus-div {
+    border-radius: 20px;
+}
+.focus-div h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #1a1a1a;
+}
+
+.focus-div p {
+    color: #555;
+    margin-bottom: 20px;
+}
+.focus-div img {
+    margin-top: 30px;
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Ready to focus better */
+
+
+
+/* Let’s Get In Touch Section */
+.touch-section{
+    padding: 40px 20px;
+    height: 560px;
+    max-width: 900px;
+    gap: 50px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.touch-left-section{
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color:black;
+}
+.touch-right-section textarea{
+    border-radius: 5px;
+}
+.btn1{
+    padding: 10px 125px;
+    background-color:blueviolet;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.btn1:hover{
+    background-color: orange;
+}
+/* Let’s Get In Touch Section */
+
+
 
 /* footer section */
 .footer {
@@ -173,36 +310,3 @@ nav ul li{
   color: white;
 }
 /* footer section */
-
-/* Let’s Get In Touch Section */
-.touch-section{
-    padding: 40px 20px;
-    height: 560px;
-    max-width: 900px;
-    gap: 50px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.touch-left-section{
-    font-size: 3em;
-    font-weight: bold;
-    margin-bottom: 30px;
-    color:black;
-}
-.touch-right-section textarea{
-    border-radius: 5px;
-}
-.btn1{
-    padding: 10px 125px;
-    background-color:blueviolet;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-}
-.btn1:hover{
-    background-color: orange;
-}
-/* Let’s Get In Touch Section */
