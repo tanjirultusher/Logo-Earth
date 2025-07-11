@@ -289,8 +289,10 @@ nav ul li{
     font-size: 3em;
 }
 .footer p{
-    font-size: 1.25em;
+    font-size: 1em;
+    opacity: 0.8;
 }
+
 .footer nav ul{
     display:flex;
     justify-content: center;
