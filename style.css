@@ -134,3 +134,43 @@ nav ul li{
 }
 /* Productive user section */
 
+
+
+
+/* footer section */
+.footer {
+  margin: 20px auto;
+  padding: 20px;
+  text-align: center;
+  max-width: 800px;
+  border-radius: 10px;
+}
+.footer h1{
+    color: #5a46f5;
+    font-size: 3em;
+}
+.footer p{
+    font-size: 1.25em;
+}
+.footer nav ul{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer nav ul li{
+    font-size: 1.25em;
+    list-style: none;
+    margin: 10px;
+}
+.footer nav ul li a{
+    text-decoration: none;
+    margin: 20px;
+}
+.footer nav ul li a:hover {
+  background-color: blueviolet;
+  padding: 10px 10px;
+  border-radius: 10px;
+  color: white;
+}
+/* footer section */
+
